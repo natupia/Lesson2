@@ -15,7 +15,7 @@ bool ValidateNumberRank3(int number)
     {
         return true;
     }
-    System.Console.WriteLine("Число не трехзначное")  // пользователь ввел не трехзначное число
+    System.Console.WriteLine("Число не трехзначное");  // пользователь ввел не трехзначное число
     return false;
 }
 
@@ -23,5 +23,5 @@ int number = InputInt ("Введите трехзначне число");   // �
 if (ValidateNumberRank3(number))
 {
     int lastRank = number %10;
-    System.Console.WriteLine($"Последняя цифра числа {number} ")
+    System.Console.WriteLine($"Последняя цифра числа {number} равна {lastRank} ");
 }
